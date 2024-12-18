@@ -82,7 +82,7 @@
       </div>
       <div class="col-lg-6 mb-4" style="max-width: 350px;">
         <div class="card-header" style="background-color:#C398BD">
-          Sample Questions
+          Preguntas
         </div>
         <div class="card">
           <img class="card-img-top" src="" alt="" />
