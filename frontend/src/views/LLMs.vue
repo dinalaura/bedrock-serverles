@@ -6,12 +6,12 @@
     <div class="row">
       <div class="col-lg-6 mb-4" style="min-width: 750px;">
         <div class="card-header" style="background-color:#C398BD">
-          Welcome to AnyCompany - Go to Innovatech Section
+          Welcome to AnyCompany 
         </div>
         <div class="card">
           <img class="card-img-top" src="" alt=""/>
-
           <div class="card-body">
+            <h2> Go to Innovatech Section </h2>
             <table hidden>
               <tr>
                 <td >
@@ -85,7 +85,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 mb-4" style="max-width: 350px;">
+      <div class="col-lg-6 mb-4" style="max-width: 350px;" hidden>
         <div class="card-header" style="background-color:#C398BD">
           Go to Innovatech Section
         </div>
