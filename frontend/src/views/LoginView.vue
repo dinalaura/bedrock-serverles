@@ -16,7 +16,7 @@
         d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415z"
       />
     </svg>
-    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
     <div v-if="error != ''" class="alert alert-danger" role="alert">
       {{ error }}
     </div>
@@ -131,12 +131,12 @@ export default {
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #f5f5f5;
+    background-color: #C398BD;
   }
   
   .btn {
-    background-color: #ec7211;
-    border-color: #ec7211;
+    background-color: #BC7C9C;
+    border-color: #BC7C9C;
   }
   
   .form-signin {
