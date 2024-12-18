@@ -31,10 +31,10 @@
             </table>
           <br />
             <form @submit="formSubmit">
-              <strong>Query</strong> <br />
+              <strong>Haz una pregunta</strong> <br />
               <input type="text" class="form-control" v-model="name" placeholder="Escribe tu pregunta..." />
               <br />
-              <button class="btn btn-success">Haz una pregunta</button>
+              <button class="btn btn-success">Enter</button>
             </form>
             <br />
             <div id="loading" style="display: none">
