@@ -12,7 +12,7 @@
           <img class="card-img-top" src="" alt=""/>
 
           <div class="card-body">
-            <table>
+            <table hidden>
               <tr>
                 <td >
                 <label for="model">Model:</label>&nbsp;
@@ -20,8 +20,8 @@
                 <td>
                   <div class="select">
                     <select id="model" name="model">
-                      <option value="anthropic.claude-3-haiku-20240307-v1:0" selected>Claude 3 Haiku</option>
-                      <option value="anthropic.claude-3-5-sonnet-20240620-v1:0">Claude 3.5 Sonnet</option>
+                      <option value="anthropic.claude-3-haiku-20240307-v1:0" >Claude 3 Haiku</option>
+                      <option value="anthropic.claude-3-5-sonnet-20240620-v1:0" selected>Claude 3.5 Sonnet</option>
                       <option value="anthropic.claude-3-opus-20240229-v1:0">Claude 3 Opus</option>
                       <option value="mistral.mistral-7b-instruct-v0:2">Mistral 7B</option>
                       <option value="meta.llama3-1-8b-instruct-v1:0">Llama 3.1 Instruct 8B</option>
@@ -60,13 +60,13 @@
           <br />
             <form @submit="formSubmit">
               <strong>Query</strong> <br />
-              <input type="text" class="form-control" v-model="name" placeholder="Type your question..." />
+              <input type="text" class="form-control" v-model="name" placeholder="Escribe tu pregunta..." />
               <br />
-              <button class="btn btn-success">Ask Question</button>
+              <button class="btn btn-success">Haz una pregunta</button>
             </form>
             <br />
             <div id="loading" style="display: none">
-              <strong>Loading...</strong>
+              <strong>Cargando...</strong>
             </div>
             <div id="divresult" class="text-secondary mb-2" style="display: block; padding: 3px;">
               <template>
