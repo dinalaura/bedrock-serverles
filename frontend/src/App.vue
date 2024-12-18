@@ -2,7 +2,7 @@
   <div>
     <div id="app">
       <nav v-if="isLoggedIn()" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <router-link to="/" class="navbar-brand">Serverless Chatbot using Amazon Bedrock</router-link>
+        <router-link to="/" class="navbar-brand">Marketing Campaign Builder</router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -20,25 +20,25 @@
           </ul>
           <ul class="nav navbar-nav navbar-right mr-4 text-light">
             <li class="nav-item mr-4">
-              <router-link to="/">General chat with LLMs</router-link>
+              <router-link to="/" hidden>General chat with LLMs</router-link>
             </li>
             <li class="nav-item mr-4">
               <span>|</span>
             </li>
             <li class="nav-item mr-4">
-              <router-link to="/rag">RAG chat with LLMs</router-link>
+              <router-link to="/rag" hidden>RAG chat with LLMs</router-link>
             </li>
             <li class="nav-item mr-4">
               <span>|</span>
             </li>
             <li class="nav-item mr-4">
-              <router-link to="/prompt">Prompt Engineering</router-link>
+              <router-link to="/prompt" hidden>Prompt Engineering</router-link>
             </li>
             <li class="nav-item mr-4">
               <span>|</span>
             </li>
             <li class="nav-item mr-4">
-              <router-link to="/kb">RAG with Knowledge Bases</router-link>
+              <router-link to="/kb">RAG - Knowledge Bases - Innovatech Company</router-link>
             </li>
             <li class="nav-item mr-4">
               <span>|</span>
