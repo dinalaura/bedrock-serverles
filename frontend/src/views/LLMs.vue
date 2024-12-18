@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-6 mb-4" style="min-width: 750px;">
         <div class="card-header" style="background-color:#C398BD">
-          Go to Innovatech Section
+          Welcome to AnyCompany - Go to Innovatech Section
         </div>
         <div class="card">
           <img class="card-img-top" src="" alt=""/>
@@ -58,8 +58,8 @@
               </tr>
             </table>
           <br />
-            <form @submit="formSubmit">
-              <strong>Query</strong> <br />
+            <form @submit="formSubmit" hidden>
+              <strong>AnyCompany</strong> <br />
               <input type="text" class="form-control" v-model="name" placeholder="Escribe tu pregunta..." />
               <br />
               <button class="btn btn-success">Haz una pregunta</button>
@@ -87,7 +87,7 @@
       </div>
       <div class="col-lg-6 mb-4" style="max-width: 350px;">
         <div class="card-header" style="background-color:#C398BD">
-          Sample Questions
+          Go to Innovatech Section
         </div>
         <div class="card">
           <img class="card-img-top" src="" alt="" />
