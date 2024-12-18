@@ -11,7 +11,7 @@
         <div class="card">
           <img class="card-img-top" src="" alt=""/>
           <div class="card-body">
-            <h2> Go to Innovatech Section </h2>
+            <h2> Go to AWS Solution </h2>
             <table hidden>
               <tr>
                 <td >
