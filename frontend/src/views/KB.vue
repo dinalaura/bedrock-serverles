@@ -61,7 +61,7 @@
           <img class="card-img-top" src="" alt="" />
 
           <div class="card-body">
-            <label style="font-weight:lighter;color:grey">Dame información acerca de la companía Innovatech en Español. Otras compañías: Green Threads o Apex Roasters</label>
+            <label style="font-weight:lighter;color:grey">Dame información acerca de la companía Innovatech en Español.</label>
             <br />
             <label style="font-weight:lighter;color:grey">¿Cómo sería el cuerpo de texto de un post de social media de marketing para la companía Innovatech? dame un ejemplo en Español, usa emojis</label>
             <br />
