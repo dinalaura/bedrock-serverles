@@ -5,14 +5,14 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mb-4" style="min-width: 750px;">
-        <div class="card-header" style="background-color:#FF9900">
-          RAG with Knowledge Bases
+        <div class="card-header" style="background-color:#C398BD">
+          RAG - Knowledge Bases
         </div>
         <div class="card">
           <img class="card-img-top" src="" alt=""/>
 
           <div class="card-body">
-            <table>
+            <table hidden>
               <tr>
                 <td >
                 <label for="model">Model:</label>&nbsp;
@@ -20,8 +20,8 @@
                 <td>
                   <div class="select">
                   <select id="model" name="model">
-                    <option value="anthropic.claude-3-haiku-20240307-v1:0" selected>Claude 3 Haiku</option>
-                      <option value="anthropic.claude-3-5-sonnet-20240620-v1:0">Claude 3.5 Sonnet</option>
+                    <option value="anthropic.claude-3-haiku-20240307-v1:0" >Claude 3 Haiku</option>
+                      <option value="anthropic.claude-3-5-sonnet-20240620-v1:0" selected>Claude 3.5 Sonnet</option>
                       <option value="anthropic.claude-3-opus-20240229-v1:0">Claude 3 Opus</option>
                       <option value="meta.llama3-1-8b-instruct-v1:0">Llama 3.1 Instruct 8B</option>
                   </select>
@@ -32,13 +32,13 @@
           <br />
             <form @submit="formSubmit">
               <strong>Query</strong> <br />
-              <input type="text" class="form-control" v-model="name" placeholder="Type your question..." />
+              <input type="text" class="form-control" v-model="name" placeholder="Escribe tu pregunta..." />
               <br />
-              <button class="btn btn-success">Ask Question</button>
+              <button class="btn btn-success">Haz una pregunta</button>
             </form>
             <br />
             <div id="loading" style="display: none">
-              <strong>Loading...</strong>
+              <strong>Cargando...</strong>
             </div>
             <div id="divresult" class="text-secondary mb-2" style="display: block; padding: 3px;">
               <strong v-if="output.answer" style="display: block; white-space: pre-line; text-align: left">Response: </strong>
@@ -54,20 +54,21 @@
         </div>
       </div>
       <div class="col-lg-6 mb-4" style="max-width: 350px;">
-        <div class="card-header" style="background-color:#FF9900">
-          Sample Questions
+        <div class="card-header" style="background-color:#C398BD">
+          Preguntas
         </div>
         <div class="card">
           <img class="card-img-top" src="" alt="" />
 
           <div class="card-body">
-            <label style="font-weight:lighter;color:grey">What is federal funds rate as of April 2024?</label>
+            <label style="font-weight:lighter;color:grey">Dame información acerca de la companía Innovatech en Español. Otras compañías: Green Threads o Apex Roasters</label>
             <br />
-            <label style="font-weight:lighter;color:grey">What is federal funds rate as of September 2025?</label>
+            <label style="font-weight:lighter;color:grey">¿Cómo sería el cuerpo de texto de un post de social media de marketing para la companía Innovatech? dame un ejemplo en Español, usa emojis</label>
             <br />
-            <label style="font-weight:lighter;color:grey" >What are the demographic trends in dental space?</label>
+            <label style="font-weight:lighter;color:grey" >Escribe un post para red social el body copy de la publicación para Innovatech en Español, dame un ejemplo de publicación</label>
             <br />
-            <label style="font-weight:lighter; color:grey" >What are Amazon sustainability goals by year 2040?</label>
+            <label style="font-weight:lighter; color:grey" >¿Cómo ayudar por medio de redes sociales a un cliente de Innovatech a conocer y usar la marca? dame un ejemplo que invite al cliente a conocer la marca</label>
+            <label style="font-weight:lighter; color:grey" >¿Cómo sería una campaña de marketing para la companía innovatech? Dame un ejemplo en Español</label>
           </div>
         </div>
       </div>
