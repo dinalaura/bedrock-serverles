@@ -19,7 +19,7 @@
             <li class="nav-item"></li>
           </ul>
           <ul class="nav navbar-nav navbar-right mr-4 text-light">
-            <li class="nav-item mr-4">
+           <!--  <li class="nav-item mr-4">
               <router-link to="/" hidden>General chat with LLMs</router-link>
             </li>
             <li class="nav-item mr-4">
@@ -36,9 +36,9 @@
             </li>
             <li class="nav-item mr-4">
               <span>|</span>
-            </li>
+            </li> -->
             <li class="nav-item mr-4">
-              <router-link to="/kb">RAG - Knowledge Bases - Innovatech Company</router-link>
+              <router-link to="/kb">AWS Solution</router-link>
             </li>
             <li class="nav-item mr-4">
               <span>|</span>
