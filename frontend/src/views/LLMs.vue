@@ -93,15 +93,14 @@
           <img class="card-img-top" src="" alt="" />
 
           <div class="card-body">
-            <label style="font-weight:lighter;color:grey">List top 10 cities of USA by population?</label>
+            <label style="font-weight:lighter;color:grey">Dame información acerca de la companía Innovatech en Español. Otras compañías: Green Threads o Apex Roasters</label>
             <br />
-            <label style="font-weight:lighter;color:grey">What is the distance between Earth and Moon?</label>
+            <label style="font-weight:lighter;color:grey">¿Cómo sería el cuerpo de texto de un post de social media de marketing para la companía Innovatech? dame un ejemplo en Español, usa emojis</label>
             <br />
-            <label style="font-weight:lighter;color:grey">List out all USA presidents, sort by most recent.</label>
+            <label style="font-weight:lighter;color:grey" >Escribe un post para red social el body copy de la publicación para Innovatech en Español, dame un ejemplo de publicación</label>
             <br />
-            <label style="font-weight:lighter;color:grey" >How many beers are need for a 2 hour Happy Hour party with a guest count of 50?</label>
-            <br />
-            <label style="font-weight:lighter; color:grey" >Tell me a story around a fox and tiger.</label>
+            <label style="font-weight:lighter; color:grey" >¿Cómo ayudar por medio de redes sociales a un cliente de Innovatech a conocer y usar la marca? dame un ejemplo que invite al cliente a conocer la marca</label>
+            <label style="font-weight:lighter; color:grey" >¿Cómo sería una campaña de marketing para la companía innovatech? Dame un ejemplo en Español</label>
           </div>
         </div>
       </div>
