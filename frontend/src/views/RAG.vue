@@ -88,13 +88,15 @@
           <img class="card-img-top" src="" alt="" />
 
           <div class="card-body">
-            <label style="font-weight:lighter;color:grey">What is federal funds rate as of April 2024?</label>
+            <label style="font-weight:lighter;color:grey">Dame información acerca de la companía Innovatech en Español. Otras compañías: Green Threads o Apex Roasters</label>
             <br />
-            <label style="font-weight:lighter;color:grey">What is federal funds rate as of September 2025?</label>
+            <label style="font-weight:lighter;color:grey">¿Cómo sería el cuerpo de texto de un post de social media de marketing para la companía Innovatech? dame un ejemplo en Español, usa emojis</label>
             <br />
-            <label style="font-weight:lighter;color:grey" >What are the demographic trends in dental space?</label>
+            <label style="font-weight:lighter;color:grey" >Escribe un post para red social el body copy de la publicación para Innovatech en Español, dame un ejemplo de publicación</label>
             <br />
-            <label style="font-weight:lighter; color:grey" >What are Amazon sustainability goals by year 2040?</label>
+            <label style="font-weight:lighter; color:grey" >¿Cómo ayudar por medio de redes sociales a un cliente de Innovatech a conocer y usar la marca? dame un ejemplo que invite al cliente a conocer la marca</label>
+            <br />
+            <label style="font-weight:lighter; color:grey" >¿Cómo sería una campaña de marketing para la companía innovatech? Dame un ejemplo en Español</label>
           </div>
         </div>
       </div>
