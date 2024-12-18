@@ -6,13 +6,13 @@
     <div class="row">
       <div class="col-lg-6 mb-4" style="min-width: 750px;">
         <div class="card-header" style="background-color:#FF9900">
-          Prompt Engineering with Claude 3.5 Sonnet
+          Prompt Engineering -
         </div>
         <div class="card">
           <img class="card-img-top" src="" alt=""/>
 
           <div class="card-body">
-            <table>
+            <table hidden>
               <tr>
                 <td >
                 <label for="model">Model:</label>&nbsp;
@@ -55,16 +55,16 @@
           <br />
             <form @submit="formSubmit">
               <strong>Query</strong> <br />
-              <input type="text" class="form-control" v-model="name" placeholder="Type your question..." />
+              <input type="text" class="form-control" v-model="name" placeholder="Escribe tu pregunta..." />
               <br />
               <strong>Prompt template</strong> <br />
               <textarea class="form-control" rows="8" v-model="promptTemplate" placeholder="Type your prompt template here, the prompt must contain at least {context} and {question} tags..."></textarea>
               <br />
-              <button class="btn btn-success">Ask Question</button>
+              <button class="btn btn-success">Haz una pregunta</button>
             </form>
             <br />
             <div id="loading" style="display: none">
-              <strong>Loading...</strong>
+              <strong>Cargando...</strong>
             </div>
             <div id="divresult" class="text-secondary mb-2" style="display: block; padding: 3px;">
               <strong v-if="output.answer" style="display: block; white-space: pre-line; text-align: left">Response: </strong>
