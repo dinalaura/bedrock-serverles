@@ -100,6 +100,7 @@
             <label style="font-weight:lighter;color:grey" >Escribe un post para red social el body copy de la publicación para Innovatech en Español, dame un ejemplo de publicación</label>
             <br />
             <label style="font-weight:lighter; color:grey" >¿Cómo ayudar por medio de redes sociales a un cliente de Innovatech a conocer y usar la marca? dame un ejemplo que invite al cliente a conocer la marca</label>
+            <br />
             <label style="font-weight:lighter; color:grey" >¿Cómo sería una campaña de marketing para la companía innovatech? Dame un ejemplo en Español</label>
           </div>
         </div>
